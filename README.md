@@ -1,10 +1,27 @@
 # 📚 BookTalk
 
-A modern Android application for book discovery, community reviews, and personal reading list management. Built with Java, following MVC architecture, and featuring an offline-first approach with intelligent caching.
+> **⚠️ Disclaimer**: This is a **learning project** for educational purposes only. This application is **NOT a real production app**. It was created solely to **learn and practice Android native development** using Java. The focus is on understanding Android development fundamentals, not creating a commercial application.
+
+A modern Android application for book discovery, community reviews, and personal reading list management. Built with Java, following MVC architecture, and featuring an offline-first approach with intelligent caching. This project serves as a **learning exercise** to understand Android native development fundamentals.
 
 ![Android](https://img.shields.io/badge/Android-29+-green.svg)
 ![Java](https://img.shields.io/badge/Java-11-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## 📖 About This Project
+
+This project is part of a learning journey to **master Android native development** using Java. The main purpose is to:
+
+- **Learn Android Native**: Practice building Android applications using Java (not Kotlin)
+- **Understand MVC Architecture**: Learn separation of concerns with Model-View-Controller pattern
+- **Master SQLite Database**: Practice local data persistence with custom DAOs
+- **Learn REST API Integration**: Work with Retrofit and Google Books API
+- **Practice Modern UI/UX**: Implement Material Design components, custom layouts, and animations
+- **Implement Offline-First Strategy**: Learn intelligent caching and background data refresh
+- **Understand Repository Pattern**: Manage data sources (local DB and remote API)
+
+**This is NOT a production-ready application.** It's a learning project to practice Android development skills.
+
+**Note**: This repository contains only the `booktalk` module from a larger multi-module Android project. It is shared as a standalone module for learning and reference purposes.
 
 ## ✨ Features
 
@@ -111,6 +128,8 @@ implementation 'com.github.bumptech.glide:glide:4.16.0'
 
 ## 🚀 Getting Started
 
+> **Important**: This is a **module** from a multi-module project. To use it as a standalone project for learning, you need to set it up properly.
+
 ### Prerequisites
 
 - Android Studio Hedgehog or later
@@ -119,23 +138,85 @@ implementation 'com.github.bumptech.glide:glide:4.16.0'
 
 ### Installation
 
+Since this is a module (not a complete project), you have two options:
+
+#### Option 1: Use as Standalone Module (Recommended for Learning)
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/booktalk.git
    cd booktalk
    ```
 
-2. **Configure API Key**
-   - Create `local.properties` in the root directory
+2. **Create root-level Gradle files** (if not present)
+   
+   Create `settings.gradle` in the root:
+   ```gradle
+   pluginManagement {
+       repositories {
+           google()
+           mavenCentral()
+           gradlePluginPortal()
+       }
+   }
+   
+   rootProject.name = "booktalk"
+   include ':app'
+   ```
+   
+   Create `build.gradle` in the root:
+   ```gradle
+   plugins {
+       id 'com.android.application' version '8.1.0' apply false
+   }
+   ```
+
+3. **Configure API Key**
+   - Create `local.properties` in the root directory (same level as `build.gradle`)
    - Add your Google Books API key:
      ```properties
      GOOGLE_BOOKS_API_KEY=your_api_key_here
      ```
+   - **Note**: The API key is read from `local.properties` by `build.gradle` and injected into `BuildConfig.GOOGLE_BOOKS_API_KEY`
 
-3. **Build and Run**
+4. **Build and Run**
    - Open the project in Android Studio
    - Sync Gradle files
    - Run on an emulator or physical device
+
+#### Option 2: Add to Existing Multi-Module Project
+
+1. **Clone this repository** into your existing project:
+   ```bash
+   cd /path/to/your/project
+   git clone https://github.com/yourusername/booktalk.git
+   ```
+
+2. **Add to `settings.gradle`**:
+   ```gradle
+   include ':booktalk'
+   ```
+
+3. **Configure API Key** in your project's `local.properties`:
+   ```properties
+   GOOGLE_BOOKS_API_KEY=your_api_key_here
+   ```
+
+4. **Sync and Run** from Android Studio
+
+### Project Structure Note
+
+This module follows standard Android module structure:
+```
+booktalk/
+├── build.gradle          # Module-level build config
+├── src/
+│   └── main/
+│       ├── java/        # Source code
+│       ├── res/         # Resources
+│       └── AndroidManifest.xml
+└── README.md
+```
 
 ## 📱 Screenshots
 
@@ -253,15 +334,13 @@ This is a personal project, but suggestions and feedback are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@junskii](https://github.com/junskii)
+- Email: jundi.mj99@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -269,11 +348,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Material Design for UI components
 - Android community for excellent resources
 
-## 📚 Documentation
-
-For detailed technical documentation, see [docs/REPORT.md](docs/REPORT.md).
-
----
-
-⭐ If you like this project, give it a star!
 
