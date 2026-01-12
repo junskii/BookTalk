@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.example.booktalk-debug-33:/layout_activity_register.xml.flat",
+        "source": "com.example.booktalk-main-35:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_fragment_search.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/drawable_bg_nav_pill.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/drawable/bg_nav_pill.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_item_book_grid.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/item_book_grid.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_activity_book_detail.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/activity_book_detail.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_fragment_home.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_activity_login.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/drawable_bg_search_box.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/drawable/bg_search_box.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_item_book_cover.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/item_book_cover.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_activity_main.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.booktalk-debug-33:/layout_fragment_settings.xml.flat",
+        "source": "com.example.booktalk-main-35:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_item_category.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/item_category.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_fragment_settings.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_item_review.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/item_review.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_custom_bottom_nav.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/custom_bottom_nav.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_activity_register.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_item_book_list.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/item_book_list.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/drawable_bg_nav_selected.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/drawable/bg_nav_selected.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_fragment_my_books.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/fragment_my_books.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/layout_activity_splash.xml.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/junskii/.gradle/daemon/8.13/com.example.booktalk-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]
